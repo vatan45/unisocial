@@ -1,11 +1,12 @@
-import {Navbar} from '../components/Navbar';
-// import {Hero} from '../components/Hero';
+// app/page.tsx
+import {Navbar} from './components/Navbar'; // Adjust the path as necessary
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
+    <div>
       <Navbar />
-      
+      <h1>Welcome to My Simple Website</h1>
+      {/* Other content can go here */}
     </div>
   );
 }
