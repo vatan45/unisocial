@@ -17,5 +17,5 @@
   "devDependencies": {
     "turbo": "^2.1.3"
   },
-  "packageManager": "npm@10.8.2" // Replace with your actual npm version
+  "packageManager": "npm@10.8.2"
 }
